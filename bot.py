@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from urllib.parse import urlparse
 import re
 
-BOT_TOKEN = "1031262750:AAEJjg1tSDVhCqASxMadmbv5J-8aNn3Lo04"
+BOT_TOKEN = "bottoken"
 
 DOWNLOAD_DIR = "downloads"
 if not os.path.exists(DOWNLOAD_DIR):
